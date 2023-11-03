@@ -1,0 +1,13 @@
+Font: Copperplate  Style: Regular
+Point Size: 45   SP/PD Ratio: 11.1%
+
+Characters included: 208/209
+Missing characters: 1
+Excluded characters: 0
+
+Characters missing from font file:
+----------------------------------------
+ID: 173	Hex: AD	Char [­]
+
+Characters excluded from packing:
+----------------------------------------
