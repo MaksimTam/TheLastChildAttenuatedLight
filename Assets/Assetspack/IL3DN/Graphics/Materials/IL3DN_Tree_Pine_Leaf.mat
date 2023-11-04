@@ -134,7 +134,7 @@ Material:
     - Vector1_7394ccd8546446dca369dc20839191c0: -1
     - Vector1_813F3AD6: 0
     - Vector1_D75841EE: 0.5
-    - Vector1_DDCDCAD2: 0
+    - Vector1_DDCDCAD2: 1
     - _AddPrecomputedVelocity: 0
     - _AlphaCutoff: 0.72
     - _AlphaCutoffEnable: 1

@@ -159,7 +159,7 @@ Material:
     - Vector1_7394ccd8546446dca369dc20839191c0: -1
     - Vector1_813F3AD6: 0
     - Vector1_D75841EE: 0.5
-    - Vector1_DDCDCAD2: 0
+    - Vector1_DDCDCAD2: 1
     - WindSpeedFloat: 0.1
     - WindStrenghtFloat: 0.8
     - WindTurbulenceFloat: 0.4
@@ -273,7 +273,7 @@ Material:
     - wind_vegetation: 1
     m_Colors:
     - Wind_direction: {r: 1, g: 0, b: 1, a: 0}
-    - _Color: {r: 0.2264151, g: 0.21893913, b: 0.21893913, a: 1}
+    - _Color: {r: 0, g: 0, b: 0, a: 1}
     - _Color0: {r: 1, g: 0.9847094, b: 0, a: 1}
     - _Color1: {r: 1, g: 1, b: 1, a: 0}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
