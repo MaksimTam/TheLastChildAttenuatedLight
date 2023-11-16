@@ -66,14 +66,14 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 1
   length:
-    m_OverrideState: 0
-    m_Value: 0.15
+    m_OverrideState: 1
+    m_Value: 0.516
   opacity:
     m_OverrideState: 0
     m_Value: 1
   distanceScaleFactor:
-    m_OverrideState: 0
-    m_Value: 0.5
+    m_OverrideState: 1
+    m_Value: 0.702
   maxDistance:
     m_OverrideState: 0
     m_Value: 50
@@ -256,13 +256,13 @@ MonoBehaviour:
     m_Value: 1
   threshold:
     m_OverrideState: 1
-    m_Value: 3.1
+    m_Value: 2.34
   intensity:
     m_OverrideState: 1
-    m_Value: 0.692
+    m_Value: 0.637
   scatter:
     m_OverrideState: 1
-    m_Value: 0.092
+    m_Value: 0.952
   tint:
     m_OverrideState: 1
     m_Value: {r: 1, g: 1, b: 1, a: 1}
@@ -487,10 +487,10 @@ MonoBehaviour:
     m_Value: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.67
+    m_Value: 4
   directLightingStrength:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   radius:
     m_OverrideState: 1
     m_Value: 5

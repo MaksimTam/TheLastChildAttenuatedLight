@@ -307,7 +307,7 @@ Material:
     - EFFECT_BILLBOARD: 0
     - EFFECT_EXTRA_TEX: 1
     - Normal_intensity_vegetation: 1
-    - Vector1_16F2F1E4: 0
+    - Vector1_16F2F1E4: -1
     - Vector1_17248137: 0
     - Vector1_1886D5D5: 0.5
     - Vector1_198C4765: 0
