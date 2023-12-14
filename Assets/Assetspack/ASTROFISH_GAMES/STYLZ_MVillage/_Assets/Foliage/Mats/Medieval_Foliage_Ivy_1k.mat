@@ -1,0 +1,284 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2392434756365839582
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 12
+  hdPluginSubTargetMaterialVersions:
+    m_Keys: []
+    m_Values: 
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Medieval_Foliage_Ivy_1k
+  m_Shader: {fileID: 4800000, guid: c06c91c9416ad0f4e8a67d6103e77fdc, type: 3}
+  m_ValidKeywords:
+  - _ALPHATEST
+  - _COLOR_TINT
+  - _LIGHTING_QUALITY_HIGH
+  - _WIND
+  m_InvalidKeywords:
+  - _BAKEDMESHDATA_OFF
+  - _EMISSIONAFFECTEDBYALBEDO_OFF
+  - _INTERACTION_OFF
+  - _LINKMAPTILINGOFFSET_ON
+  - _OVERLAY_OFF
+  - _TRANSLUCENCY_OFF
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: 2475
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - TransparentDepthPrepass
+  - TransparentDepthPostpass
+  - TransparentBackface
+  - RayTracingPrepass
+  - DistortionVectors
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Normal_vegetation:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: 7dd591f08d2807f478dc475d802eb24e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: ac14f8fec42cc224abbf9aaa3b69156b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlossMap:
+        m_Texture: {fileID: 2800000, guid: ac14f8fec42cc224abbf9aaa3b69156b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 7dd591f08d2807f478dc475d802eb24e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: 3edea42c662ba3d4ca7502123014b1d9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 2800000, guid: 3edea42c662ba3d4ca7502123014b1d9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PackedMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadowOffset:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 2800000, guid: 3edea42c662ba3d4ca7502123014b1d9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ThicknessMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TranslucencyMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - mask_vegetation:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Boolean_33df076976b247a2a8dab089b36d0b89: 1
+    - Boolean_BEB403F2: 0
+    - Normal_intensity_vegetation: 1
+    - Vector1_16F2F1E4: -0.25
+    - Vector1_7394ccd8546446dca369dc20839191c0: -1
+    - Vector1_813F3AD6: 0
+    - Vector1_D75841EE: 0.5
+    - Vector1_DDCDCAD2: 1
+    - _AO: 2.4
+    - _AddPrecomputedVelocity: 0
+    - _AlphaCutoffEnable: 1
+    - _AlphaDstBlend: 0
+    - _AlphaSrcBlend: 1
+    - _AlphaTest: 1
+    - _AlphaTestThreshold: 0.5
+    - _AlphaToMask: 0
+    - _AlphaToMaskInspectorValue: 0
+    - _BakedMeshData: 0
+    - _BaseLight: 0.35
+    - _BlendMode: 0
+    - _BumpScale: 0.5
+    - _ColorCorrection: 0
+    - _ColorVariationSpread: 0.2
+    - _ConservativeDepthOffsetEnable: 0
+    - _CullMode: 0
+    - _CullModeForward: 0
+    - _Cutoff: 0.508
+    - _Decals: 1
+    - _DepthOffsetEnable: 0
+    - _DetailNormalMapScale: 1
+    - _DiffusionProfileHash: 2.6486764
+    - _DoubleSidedEnable: 1
+    - _DoubleSidedGIMode: 0
+    - _DoubleSidedMode: 0
+    - _DoubleSidedNormalMode: 1
+    - _DstBlend: 0
+    - _EmissionAffectedByAlbedo: 0
+    - _EmissionExposureWeight: 1
+    - _EmissionIntensity: 0
+    - _EnableBlendModePreserveSpecularLighting: 1
+    - _EnableFogOnTransparent: 1
+    - _GlossMapScale: 0.562
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _Interaction: 0
+    - _InteractionDuration: 1.5
+    - _InteractionPushDown: 1
+    - _InteractionStrength: 1
+    - _LightingQuality: 0
+    - _LinkMapTilingOffset: 1
+    - _Metallic: 0
+    - _Mode: 1
+    - _MotionVectors: 1
+    - _NatureRendererDistanceControl: 1
+    - _NormalMapScale: 1
+    - _ObjectHeight: 0.5
+    - _ObjectRadius: 0.5
+    - _Occlusion: 7.5
+    - _OcclusionStrength: 1
+    - _OpaqueCullMode: 2
+    - _Overlay: 0
+    - _Parallax: 0.02
+    - _RayTracing: 0
+    - _RecalculateWindNormals: 0.5
+    - _ReceivesSSR: 0
+    - _ReceivesSSRTransparent: 0
+    - _RefractionModel: 0
+    - _RenderQueueType: 1
+    - _RequireSplitLighting: 0
+    - _SampleAlphaOverlay: 1
+    - _SampleColorOverlay: 1
+    - _ShadowStrength: 1
+    - _Shininess: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SquashAmount: 1
+    - _SrcBlend: 1
+    - _StencilRef: 0
+    - _StencilRefDepth: 0
+    - _StencilRefDistortionVec: 4
+    - _StencilRefGBuffer: 2
+    - _StencilRefMV: 32
+    - _StencilWriteMask: 6
+    - _StencilWriteMaskDepth: 8
+    - _StencilWriteMaskDistortionVec: 4
+    - _StencilWriteMaskGBuffer: 14
+    - _StencilWriteMaskMV: 40
+    - _SupportDecals: 0
+    - _SurfaceMapMethod: 2
+    - _SurfaceType: 0
+    - _TemporalAntiAliasing: 0
+    - _Translucency: 0
+    - _TranslucencyViewDependency: 0.7
+    - _TransparentBackfaceEnable: 1
+    - _TransparentCullMode: 2
+    - _TransparentDepthPostpassEnable: 0
+    - _TransparentDepthPrepassEnable: 0
+    - _TransparentSortPriority: 0
+    - _TransparentWritingMotionVec: 0
+    - _TransparentZWrite: 0
+    - _TurbulenceStrength: 0.86
+    - _UVSec: 0
+    - _UseShadowThreshold: 0
+    - _VertexNormalStrength: 1
+    - _Wind: 1
+    - _WindStrength: 0
+    - _WindVariation: 0.3
+    - _ZTestDepthEqualForOpaque: 3
+    - _ZTestForward: 3
+    - _ZTestGBuffer: 3
+    - _ZTestTransparent: 4
+    - _ZWrite: 1
+    - _cutoff: 0.25
+    - auto_red_channel: 0
+    - bend_vegetation: 0.177
+    - turbulence_vegetation: 1.07
+    - wind_speed_vegetation: 0.5
+    - wind_vegetation: 1
+    m_Colors:
+    - Wind_direction: {r: 1, g: 0, b: 1, a: 0}
+    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _DiffusionProfileAsset: {r: -3.698545e+22, g: 20.616848, b: -5.291675e-28, a: -1.3520143e+18}
+    - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FloatingOriginOffset_Color: {r: 0, g: 0, b: 0, a: 0}
+    - _GlossRemap: {r: 0, g: 0.944, b: 0, a: 0}
+    - _HSL: {r: 0.02, g: 0.05, b: 0.1, a: 0}
+    - _HSLVariation: {r: -0.02, g: -0.05, b: -0.1, a: 0}
+    - _OcclusionRemap: {r: 0, g: 1, b: 0, a: 0}
+    - _ScaleFade: {r: 50, g: 20, b: 0, a: 0}
+    - _SpecColor: {r: 0.13932894, g: 0.18991281, b: 0.2924528, a: 1}
+    - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
+    - _Tint: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _TintVariation: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _TranslucencyColor: {r: 0.73, g: 0.85, b: 0.41, a: 1}
+    - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
+    - _TrunkBendFactor: {r: 1, g: 0, b: 0, a: 0}
+    - _WindFade: {r: 50, g: 20, b: 0, a: 0}
+  m_BuildTextureStacks: []
