@@ -182,7 +182,7 @@ Material:
     - _ZTestGBuffer: 3
     - _ZTestTransparent: 4
     - _ZWrite: 1
-    - _cutoff: 0.09
+    - _cutoff: 0.39
     - auto_red_channel: 0
     - bend_vegetation: 0.1
     - turbulence_vegetation: 1.16
