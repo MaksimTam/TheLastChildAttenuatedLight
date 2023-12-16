@@ -16,7 +16,11 @@ Material:
   - _TRANSLUCENCY
   - _WIND
   m_InvalidKeywords:
+  - _BAKEDMESHDATA_OFF
+  - _EMISSIONAFFECTEDBYALBEDO_OFF
   - _INTERACTION_OFF
+  - _LINKMAPTILINGOFFSET_ON
+  - _OVERLAY_OFF
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0

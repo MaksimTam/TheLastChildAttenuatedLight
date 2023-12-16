@@ -34,7 +34,9 @@ Material:
   - _OVERLAY
   - _TRANSLUCENCY_MAP
   - _WIND
-  m_InvalidKeywords: []
+  m_InvalidKeywords:
+  - _EMISSIONAFFECTEDBYALBEDO_OFF
+  - _LINKMAPTILINGOFFSET_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
