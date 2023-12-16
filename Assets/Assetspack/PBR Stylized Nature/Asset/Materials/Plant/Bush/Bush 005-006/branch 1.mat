@@ -16,12 +16,7 @@ Material:
   - _SURFACE_MAP_PACKED
   - _WIND
   m_InvalidKeywords:
-  - _BAKEDMESHDATA_OFF
-  - _EMISSIONAFFECTEDBYALBEDO_OFF
   - _INTERACTION_OFF
-  - _LINKMAPTILINGOFFSET_ON
-  - _OVERLAY_OFF
-  - _TRANSLUCENCY
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -406,8 +401,8 @@ Material:
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _TRANSPARENCY: {r: 1, g: 1, b: 1, a: 1}
     - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
-    - _Tint: {r: 1, g: 1, b: 1, a: 1}
-    - _TintVariation: {r: 1, g: 1, b: 1, a: 1}
+    - _Tint: {r: 0, g: 0, b: 0, a: 1}
+    - _TintVariation: {r: 0, g: 0, b: 0, a: 1}
     - _TransmittanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TrunkBendFactor: {r: 1, g: 0, b: 0, a: 0}
     - _UVDetailsMappingMask: {r: 1, g: 0, b: 0, a: 0}
